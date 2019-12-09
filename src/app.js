@@ -12,7 +12,9 @@ class App extends React.Component {
           <a>Projects</a>
           <a>Contact</a>
         </nav>
-        <h1>Nice To Meet You</h1>
+        <div className="welcome-text">
+          <h2>Nice To Meet You</h2>
+        </div>
       </>
     )
   }
